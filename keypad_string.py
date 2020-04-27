@@ -1,5 +1,5 @@
 def keypad_string(keys):
-    '''
+    """
     >>> keypad_string("12345")
     'adgj'
     >>> keypad_string("4433555555666")
@@ -12,7 +12,7 @@ def keypad_string(keys):
     ''
     >>> keypad_string("7773325550799984466666")
     'real python'
-    '''
+    """
 
     keypad = {
             '1': '',

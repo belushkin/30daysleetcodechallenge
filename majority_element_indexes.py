@@ -1,7 +1,7 @@
 from collections import Counter
 
 def majority_element_indexes(lst):
-    '''
+    """
     >>> majority_element_indexes([1,1,2])
     [0, 1]
     >>> majority_element_indexes([1,2])
@@ -16,7 +16,7 @@ def majority_element_indexes(lst):
     [0, 1, 2, 6, 7]
     >>> majority_element_indexes([1, 3, 2, 2, 4, 5])
     []
-    '''
+    """
 
     n = len(lst) // 2
     cnt = Counter(lst)
